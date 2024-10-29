@@ -6,23 +6,6 @@ body {
     color: #333;
 }
 
-/* Header */
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #ffcc00;
-}
-.header__logo img {
-    width: 50px;
-}
-.header__nav__item a,
-.header__account__item a {
-    color: #000;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
 /* Banner Section */
 .product_banner {
     position: relative;
@@ -30,16 +13,22 @@ body {
     color: white;
     width: 100%;
 }
+
 .banner img {
     width: 100%;
 }
+
 .banner__text {
     position: absolute;
-    bottom: 20px; /* Khoảng cách từ đáy ảnh */
-    left: 25vw; /* Khoảng cách từ trái */
-    color: white; /* Màu chữ */
+    bottom: 20px;
+    /* Khoảng cách từ đáy ảnh */
+    left: 25vw;
+    /* Khoảng cách từ trái */
+    color: white;
+    /* Màu chữ */
     padding: 10px;
 }
+
 .banner__text h1 {
     font-size: 3em;
 }
@@ -49,15 +38,18 @@ body {
     padding: 20px;
     text-align: center;
 }
+
 .specifications__content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .specifications__content img {
     width: 300px;
     margin-right: 20px;
 }
+
 .table {
     text-align: left;
 }
@@ -72,7 +64,7 @@ body {
     text-align: center;
 }
 
-.product_details{
+.product_details {
     margin-top: 100px;
     text-align: center;
 }
@@ -90,7 +82,8 @@ body {
 .specifications-table .detail {
     text-align: left;
     font-weight: bold;
-    width: 50%;  /* Ensures both columns are balanced */
+    width: 50%;
+    /* Ensures both columns are balanced */
 }
 
 .specifications-table .info {
@@ -105,18 +98,23 @@ body {
     padding: 40px 0;
 }
 
-.footer__info, .footer__brands, .footer__newsletter {
+.footer__info,
+.footer__brands,
+.footer__newsletter {
     margin-bottom: 20px;
 }
 
-.footer__info h5, .footer__brands h5, .footer__newsletter h5 {
+.footer__info h5,
+.footer__brands h5,
+.footer__newsletter h5 {
     font-weight: bold;
     margin-bottom: 15px;
     text-align: left;
 
 }
 
-.footer__info p, .footer__newsletter p {
+.footer__info p,
+.footer__newsletter p {
     font-size: 0.9rem;
     color: #ccc;
     margin: 0;

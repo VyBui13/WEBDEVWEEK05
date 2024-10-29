@@ -6,22 +6,6 @@ body {
     color: #333;
 }
 
-/* Header */
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #ffcc00;
-}
-.header__logo img {
-    width: 50px;
-}
-.header__nav__item a,
-.header__account__item a {
-    color: #000;
-    text-decoration: none;
-    margin: 0 10px;
-}
 
 /* About Us Section */
 .about-us h2 {
@@ -79,11 +63,15 @@ body {
     padding: 40px 0;
 }
 
-.footer__info, .footer__brands, .footer__newsletter {
+.footer__info,
+.footer__brands,
+.footer__newsletter {
     margin-bottom: 20px;
 }
 
-.footer__info h5, .footer__brands h5, .footer__newsletter h5 {
+.footer__info h5,
+.footer__brands h5,
+.footer__newsletter h5 {
     font-weight: bold;
     margin-bottom: 15px;
 }
