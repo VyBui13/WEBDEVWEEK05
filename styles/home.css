@@ -86,8 +86,8 @@
     margin-top: 80px;
     width: 100%;
     height: 400px;
-    background: linear-gradient(to right, #FF9800, #000);
     position: relative;
+    background: linear-gradient(to right, #FF9800, #000);
 }
 
 .banner .banner__triangle {
